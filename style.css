@@ -52,3 +52,26 @@ nav{
     color:black;
     font-weight: 400;
 }
+
+.slider{
+    padding: 10px;
+}
+
+.buyButton{
+    
+    top: 50%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(168, 27, 27);
+    border: 1px solid gray;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.buyButton.buyButton:hover{
+    background-color: rgb(174, 98, 98);
+    color: rgb(168, 27, 27);
+}
+
