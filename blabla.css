@@ -1,0 +1,11 @@
+.sliderWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sliderItem {
+    flex: 0 0 auto;
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+}
+

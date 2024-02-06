@@ -1,6 +1,6 @@
 body{
     font-family: 'Lato',sans-serif;
-    padding: 0px;
+    padding: 2%1;
     margin: 0;
 }
 
@@ -54,7 +54,8 @@ nav{
 }
 
 .slider{
-    padding: 10px;
+    margin-left: 250px;
+    margin-top: 40px;
 }
 
 .buyButton{
@@ -74,4 +75,39 @@ nav{
     background-color: rgb(174, 98, 98);
     color: rgb(168, 27, 27);
 }
+
+
+.voorwoord{
+    margin-top: 50px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.sliderWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sliderItem {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .sliderWrapper {
+        flex-direction: column;
+    }
+
+    .sliderItem {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
 
