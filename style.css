@@ -1,6 +1,6 @@
 body{
-    font-family: 'Lato',sans-serif;
-    padding: 2%1;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -136,3 +136,4 @@ a{
         flex: 0 0 calc(50% - 20px); /* Twee afbeeldingen naast elkaar op kleinere schermen */
     }
 }
+
