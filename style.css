@@ -129,11 +129,24 @@ a{
     z-index: 1;
   
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .item {
+    background-color: #ccc;
+    padding: 20px;
+    max-width: 100%;
+  height: auto;
+  }
 
-/* Mediaquery voor het wijzigen van de breedte van de sliderItem op kleinere schermen */
+
 @media screen and (max-width: 768px) {
-    .sliderItem {
-        flex: 0 0 calc(50% - 20px); /* Twee afbeeldingen naast elkaar op kleinere schermen */
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
-}
+  }
+  
 
