@@ -135,6 +135,10 @@ a{
     gap: 20px;
   }
   
+  .features{
+    display: flex;
+    align-items: center;
+  }
   .item {
     background-color: #ccc;
     padding: 20px;
